@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+  <header>
+
+  </header>
+  <main>
+<form action="ejercicio-1c.hatml" method="get" name="rock">
+    <label for="nombre">Nombre</label>
+    <input id="nombre">
+    <button>Enviar</button>
+<input type="submit" value="Kill m all"> <br>
+<h2>Tipos de input</h2>
+<fieldset>
+  <leyend>Tiempo</leyend>
+  <div>     
+<input type="date">
+<input type="time">
+<input type="month">
+</div>
+</fieldset> 
+<br>
+<hr>|
+<label for="busqueda">Busqueda</label>
+<input id="busqueda" type="search">
+<label>
+  telefono
+  <input type="tel">
+</label>
+<label for="contraseña"> Contraseña</label>
+<input type="password" id="contraseña">
+<hr>
+<label>
+Color  
+<input type="color">
+</label>
+<label>
+  Numero  
+  <input type="number" name="Nuemro" placeholder="Numero" min="2" max="10">
+
+  </label>
+  <label>
+    Rango  
+    <input type="range" step="2" min="0" max="20">
+    </label>
+      <input type="reset">
+      <hr>
+      <h2>seleccion</h2>
+<h3>Que escuderia prefieres</h3>
+      <label>
+        Ferrari
+        <input type="radio" name="rock" value="Ferrari" checked>
+      </label>
+      <label>
+        Red Bull
+        <input type="radio" name="rock" value="red bull">
+      </label>
+      <label>
+        Mercedes
+        <input type="radio" name="rock" value="mercedes">
+      </label>
+      <hr>
+      <label>MetallicA
+        <input type="checkbox" name="heavy" value="metallica" checked>
+      </label>
+      <label>
+        MegadetH
+        <input type="checkbox" name="heavy" value="megadeth">
+      </label>
+      <label>Black sabath
+        <input type="checkbox" name="heavy" value="blacksabath">
+      </label>
+</form>
+<hr>
+<h2>Elementos de seleccion</h2>
+<select name="tenis">
+  <option value="federer">Federer</option>
+  <option value="Djocovich">Djocivich</option>
+  <option value="nadal">nadal</option>
+</select> <br>
+<select name="tenissuperficies">
+  <optgroup label="cesped">
+     <option value="federer">Federer</option>
+  </optgroup>
+ <optgroup label="arcilla">
+   <option value="nadal">nadal</option>
+ </optgroup>
+ <optgroup label="todas">
+  <option value="Djocovich">Djocivich</option>
+ </optgroup>
+</select>
+<form>
+  <fieldset>
+    <leyend>Salon de justicia</leyend>
+  <input type="list" list="salon de la justicia">
+  <datalist id="salon de la justicia">
+  <option value="superman">superman</option>
+    <option value="batman">batman</option>
+      <option value="gemelos fantasticos">gemelos fantasticos</option>
+  </datalist>
+  </fieldset>
+  <hr>
+  <input type="file"> <br>
+<label for="Fuerza">Power</label>
+  <meter id="fuerza" min="o" max="100" value="90" low="15" high="80">
+  </meter>
+
+<label for="Poder">Poder</label>
+<progress id="poder" max="90" value="50"></progress> <br>
+<label for="matematica">Matematica</label>
+<textarea name="cuadriculas" id="matematica" cols="30" rows="10"></textarea> 
+<hr>
+<label for="disco">And justice for all</label>
+<input type="text" name="disco" placeholder="Metallica">
+
+<label for="rock">enviar</label>
+<input type="submit" name="rock">
+</form>
+  </main>
+  <footer>
+
+  </footer>  
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Embebido</title>
+</head>
+<style>
+    video, img, picture {max-width: 10%;}
+</style>
+
+<body>
+    <h1>MetallicA</h1>
+<img srcset="/assets/images/metallica.png 3x,
+/assets/images/Gaby.jpg" alt="metal" src="/assets/images/Gaby.jpg">
+<hr>
+<picture>
+    <source srcset="/assets/images/metallica.svg" media="(max-width:500px)">
+    <img src="/assets/images/metallica.svg" alt="web">
+   </picture>
+   <hr>
+   <picture>
+    <source srcset="/assets/images/web.jpg"  media="max-width:1000px">
+    <img src="/assets/images/web.jpg" alt="Gaby">
+</picture>
+<h2>Audio</h2>
+<audio src="/assets/audio/y2mate.com - Faith No More   Digging the Grave.mp3" controls loop></audio>
+<h2>video</h2>
+<video src="/assets/video/pink.mp4" controls></video>
+<hr>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/hAgrrW5LM6M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+</body>
+</html>
